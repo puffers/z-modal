@@ -1,0 +1,50 @@
+@value sm: 499px;
+@value md: 768px;
+@value lg: 1100px;
+@value xlg: 1500px;
+
+.modalBackground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: gray;
+  z-index: 1;
+}
+
+.modalContainer {
+  z-index: 2;
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+}
+
+@media (max-width: sm) {
+  .modalContainer {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: none;
+  }
+}
+
+.modalHeader {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalFooter {
+  padding: 10px;
+  display: flex;
+}
+
+.buttonOnRight {
+  justify-content: flex-end;
+}
+
+.buttonOnLeft {
+  justify-content: flex-start;
+}
