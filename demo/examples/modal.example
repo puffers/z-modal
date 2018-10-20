@@ -1,0 +1,5 @@
+<Modal active={false}>
+  <ul>
+    welcome to z-modal
+  </ul>
+</Modal>

@@ -4,7 +4,8 @@
   "description": "React modal for resposive design",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "webpack-dev-server --mode development --port 3000 --config demo/webpack.config.dev.js --content-base demo"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,33 @@
   "bugs": {
     "url": "https://github.com/puffers/z-modal/issues"
   },
-  "homepage": "https://github.com/puffers/z-modal#readme"
+  "homepage": "https://github.com/puffers/z-modal#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-standalone": "^6.26.0",
+    "codemirror": "^5.30.0",
+    "component-playground": "^3.2.1",
+    "opener": "^1.5.1",
+    "prop-types": "^15.6.0",
+    "react": "^15.6.2",
+    "react-codemirror2": "^5.0.0",
+    "react-dom": "^15.6.2",
+    "rimraf": "^2.6.2",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.23.1"
+  }
 }
