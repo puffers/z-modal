@@ -5,10 +5,6 @@ import Playground from 'component-playground';
 import Modal from '../src/index';
 import modalExample from "raw!./examples/modal.example";
 
-import "./styles/syntax.css";
-import "./styles/codemirror.css";
-import "./styles/demo.css";
-
 const Index = () => (
   <div>
     <Playground
